@@ -1,2 +1,2 @@
 # Composite_Cols
-Evaluation of Reinforced Concrete Encased Steel Column
+Natural Periods and Modes of Vibration of RC frames with composite columns (Encased steel)
