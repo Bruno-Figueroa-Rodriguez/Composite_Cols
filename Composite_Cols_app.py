@@ -37,9 +37,9 @@ with in_data:
     Lcol = st.number_input('Length of Column (ft)',value = 18)*ft
     Lbeam = st.number_input('Length of X beam (ft)',value = 12)*ft
     Lgird = st.number_input('Length of Y beam (ft)',value = 15)*ft
-    columns = st.number_input('Number of Stories', value = 5)
-    beams = st.number_input('Number of X bays', value = 2)
-    girders = st.number_input('Number of Y bays', value = 3)
+    columns = st.number_input('Number of Stories', value = 2)
+    beams = st.number_input('Number of X bays', value = 1)
+    girders = st.number_input('Number of Y bays', value = 1)
     RigidDiaphragm = st.selectbox('Rigid Diaphragm',['ON','OFF'])
 
     fc = -1*st.number_input('Concrete Compressive Strength KSI (Unconfined)',value = 4.0)
