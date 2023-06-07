@@ -1,10 +1,7 @@
 import streamlit as st
 import openseespy.opensees as ops
 import opsvis as opsvis
-from typing import Optional
 import modeling_functions as mod_fun
-import os #import operating system to create folder and such
-import vfo.vfo as vfo
 import matplotlib.pyplot as plt
 import numpy as numpy
 import pandas as pd
