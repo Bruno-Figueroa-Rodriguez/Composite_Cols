@@ -299,7 +299,7 @@ for Ni in range(1+((beams+1)*(girders+1)),1+node_counter):
 
 Nmodes = 3*columns
 
-vals = ops.eigen('-fullGenLapack',Nmodes)
+vals = ops.eigen('-genBandArpack',Nmodes)
 
 # st.write('vals will be')
 # st.write(vals)
